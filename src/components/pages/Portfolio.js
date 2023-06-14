@@ -4,8 +4,9 @@ export default function Portfolio() {
   return (
     <main className="container text-center">
       <div className="row">
+      <h1>Portfolio</h1>
         <div className="col">
-          <h1>Portfolio</h1>1 of 2
+          1 of 2
         </div>
         <div className="col">2 of 2</div>
       </div>

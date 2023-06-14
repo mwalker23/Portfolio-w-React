@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <main className="container">
       <div className="row">
-        <div className="mb-3">
+        <div className="mb-3 mt-4">
           <h1>Contact Page</h1>
           <label for="exampleFormControlInput1" className="form-label">
             {" "}
