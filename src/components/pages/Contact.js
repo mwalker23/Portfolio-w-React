@@ -4,21 +4,21 @@ export default function Contact() {
   return (
     <main className="container">
       <div className="row">
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" className="form-label">
-            Name
-          </label>
-          <textarea
-            className="form-control"
-            id="exampleFormControlTextarea1"
-            rows={"3"}
-          ></textarea>
-        </div>
         <div className="mb-3">
           <h1>Contact Page</h1>
           <label for="exampleFormControlInput1" className="form-label">
             {" "}
-            Email address
+            Name:
+          </label>
+          <input
+            type={"name"}
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Name here"
+          ></input>
+          <label for="exampleFormControlInput1" className="form-label">
+            {" "}
+            Email address:
           </label>
           <input
             type={"email"}
@@ -29,7 +29,7 @@ export default function Contact() {
         </div>
         <div className="mb-3">
           <label for="exampleFormControlTextarea1" className="form-label">
-            Message
+            Message:
           </label>
           <textarea
             className="form-control"
