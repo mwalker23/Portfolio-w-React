@@ -37,6 +37,11 @@ export default function Contact() {
             rows={"3"}
           ></textarea>
         </div>
+        <div className="col-auto">
+          <button type="submit" className="btn btn-primary mb-3">
+            Send
+          </button>
+        </div>
       </div>
     </main>
   );
